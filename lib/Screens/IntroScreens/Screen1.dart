@@ -9,13 +9,13 @@ class Screen1 extends StatelessWidget {
       mainAxisAlignment: MainAxisAlignment.center,
       children: [
         Image.asset('assets/Reading book-bro.png'),
-        const SizedBox(height: 40),
+        const SizedBox(height: 10),
         const Text("We Need To Work Hard", style: TextStyle(
           color: Colors.black,
           fontSize: 25,
           fontWeight: FontWeight.w400
         ),),
-        const SizedBox(height: 20),
+        const SizedBox(height: 10),
         Container(
           padding: const EdgeInsets.symmetric(horizontal: 20),
           child: const Text("We Need To Work Hard, We Need To Work Hard, We Need To Work Hard", style: TextStyle(
